@@ -1,0 +1,9 @@
+# Bioinformatics Workflows
+
+This page compiles some common bioinformatic workflows any person working with NGS is like to perform at some point.
+
+* [Variant Calling Workflow - From reads to short variants ](https://nbisweden.github.io/workshop-ngsintro/2105/lab_vc.html).
+* [RNA-Seq Analyses](https://nbisweden.github.io/workshop-ngsintro/2105/lab_rnaseq.html).
+
+## Practical resources
+* [How to structure a Bioinformatic Project](./docs/_main_files/How_to_structure_a_bioinformatics_project.pdf). My class on How to structure a Bioinformatic Project for the "Programming for Biology" course at the University of Groningen.

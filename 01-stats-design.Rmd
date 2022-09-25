@@ -1,0 +1,21 @@
+# Statistics and Experimental Design
+
+This page collects useful resources in experimental design - mostly Analysis of Variance and it's variations and Regression Methods - that, in my opinion, are enough to get most peoples project up and running on the statistical front. 
+
+Most of this resources assume previous exposure in some way or another to statistics, Linux, R, and Python, so they may not be the most appropriate resources for beginners. In any case, if you're a beginner and you still want to use this resources, my advice is to start with [Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang](https://advstats.psychstat.org).
+
+## General material
+* [Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang](https://advstats.psychstat.org). The statistics book of the Advance Statistics course at the University of Notre Dame. Contrary to what the name seems to indicate, this book, specially the first chapters, are accesible to anyone with little knowledged of statistic or R. A good place to start.
+
+## Experimental Design
+* [Comparing Means in R](https://www.datanovia.com/en/classes/comparing-means-in-r/). An online course covering most of what needs to be know about Analysis of Variance for Parametric and Non-parametric scenarios. In other words, ANOVA and all its different flavors... To navigate the website, go to the Lessons sections and pick the topic of interest.
+
+* [STAT 501: Regression Methods](https://online.stat.psu.edu/stat501/). The Regression Methods course of PennState, part of their Master in Applied Statistics. Covers, effectively, most topics in Regression, from Simple Linear Regression to Multiple Linear Regression. It also contains a primer on Times Series and other types of Regression like Logistic, Poisson, and Non Linear Regression.
+
+## Advanced material 
+* [Common statistical tests are linear models (or: how to teach stats)](https://lindeloev.github.io/tests-as-linear/#1_the_simplicity_underlying_common_tests) and [Common statistical tests are linear models: a work through](https://steverxd.github.io/Stat_tests/). Excellent resources that proves the power of Regression Methods and how most experimental designs *are* Regression.
+```{r, echo=FALSE}
+knitr::include_graphics("docs/_main_files/figure-html/linear_tests_cheat_sheet.png")
+```
+
+
