@@ -1,9 +1,14 @@
 # Bioinformatics Workflows
 
-This page compiles some common bioinformatic workflows any person working with NGS is like to perform at some point.
+This page compiles some common bioinformatic workflows any person working with NGS is likely to perform at some point. Special focus is giving to aligning sequences to a reference genome and doing the variant calling.
+
+## Workflows
 
 * [Variant Calling Workflow - From reads to short variants ](https://nbisweden.github.io/workshop-ngsintro/2105/lab_vc.html).
+
 * [RNA-Seq Analyses](https://nbisweden.github.io/workshop-ngsintro/2105/lab_rnaseq.html).
+
+* [Data Wrangling and Processing for Genomics](https://datacarpentry.org/wrangling-genomics/). How to use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. Part of a [more comprehensive workshop on genomics](https://datacarpentry.org/genomics-workshop/) that assumes no previous knowledge of the command line.
 
 ## Practical resources
 * [How to structure a Bioinformatic Project](pdfs/How_to_structure_a_bioinformatics_project.pdf). My class on How to structure a Bioinformatic Project for the "Programming for Biology" course at the University of Groningen.

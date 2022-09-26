@@ -4,7 +4,11 @@ general-material
 experimental-design
 advanced-material
 data-science-ml-and-big-data-tools
+data-exploration
+clustering-methods
+correlation-methods
 bioinformatics-workflows
+workflows
 practical-resources
 basic-mathematics
 other-useful-resources

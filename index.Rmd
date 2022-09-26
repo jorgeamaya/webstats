@@ -1,6 +1,6 @@
 --- 
-title: "Experimental Design, Big Data, and Bioinformatics Resources"
-author: "Jorge Eduardo Amaya Romero Ph.D. cand. Integrative Life Sciences"
+title: "Web Stats: Experimental Design, Big Data, and Bioinformatics Resources"
+author: "Jorge Eduardo Amaya Romero"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -8,15 +8,19 @@ bibliography: [book.bib, packages.bib]
 url: https://jorgeamaya.github.io/webstats
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This site compiles online resources in the areas of Experimental Design, Machine Learning, and Bioinformatics. 
+  This site compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
 # About
-This site compiles online resources in the areas of Experimental Design, Machine Learning, and Bioinformatics. For the moment, it works as a repository of materials I use in my own work and often recommend or discuss with others. 
+Web Stats is a site that compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics. For the moment, it works as a repository of materials I use in my own work and often recommend or discuss with others. As time permits, I will upload further material prepared by myself as well as new furthers resources that may come my way. 
 
-In addition, there are links to scientific papers and outreach materials that I find relevant. 
+In addition, there are links to scientific papers and outreach materials that I find relevant.
+
+Contact Details:
+Email: j.e.amaya.romero@rug.nl.
+GitHub: https://github.com/jorgeamaya.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
