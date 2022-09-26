@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  css: slategbootstrap.min.css
+  css: luxbootstrap.min.css
   config:
     toc:
       before: |
