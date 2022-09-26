@@ -12,3 +12,7 @@ This page compiles some common bioinformatic workflows any person working with N
 
 ## Practical resources
 * [How to structure a Bioinformatic Project](pdfs/How_to_structure_a_bioinformatics_project.pdf). My class on How to structure a Bioinformatic Project for the "Programming for Biology" course at the University of Groningen.
+
+```{r, echo=FALSE, fig.align = 'center'}
+knitr::include_graphics("images/phd031214s.gif")
+```

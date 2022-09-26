@@ -13,5 +13,6 @@ practical-resources
 basic-mathematics
 other-useful-resources
 scientific-production-and-outreach
-my-scientific-papers
+scientific-papers
 pipelines
+youtube-videos-and-postcast
