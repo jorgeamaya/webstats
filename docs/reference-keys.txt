@@ -10,3 +10,4 @@ basic-mathematics
 other-useful-resources
 scientific-production-and-outreach
 my-scientific-papers
+pipelines
