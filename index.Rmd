@@ -1,11 +1,11 @@
 --- 
-title: "Experimental Design and Bioinformatics Resources"
+title: "Experimental Design, Big Data, and Bioinformatics Resources"
 author: "Jorge Eduardo Amaya Romero Ph.D. cand. Integrative Life Sciences"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
+url: https://jorgeamaya.github.io/webstats
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   This site compiles online resources in the areas of Experimental Design, Machine Learning, and Bioinformatics. 

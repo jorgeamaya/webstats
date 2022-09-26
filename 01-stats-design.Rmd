@@ -1,8 +1,8 @@
 # Statistics and Experimental Design
 
-This page collects useful resources in experimental design - mostly Analysis of Variance and it's variations and Regression Methods - that, in my opinion, are enough to get most peoples project up and running on the statistical front. 
+This page collects useful resources in Experimental Design that are enough to get most people's project up and running on the statistical front. These materials cover mostly, first, Analysis of Variance and its many parametric and non-parametric variations and, second, Regression Methods.
 
-Most of this resources assume previous exposure in some way or another to statistics, Linux, R, and Python, so they may not be the most appropriate resources for beginners. In any case, if you're a beginner and you still want to use this resources, my advice is to start with [Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang](https://advstats.psychstat.org).
+Most of this resources assume previous exposure to statistics, Linux, R, and Python. They may not be the most appropriate material for beginners. In any case, if you're a beginner and you still want to use these resources, my advice is to start with [Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang](https://advstats.psychstat.org).
 
 ## General material
 * [Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang](https://advstats.psychstat.org). The statistics book of the Advance Statistics course at the University of Notre Dame. Contrary to what the name seems to indicate, this book, specially the first chapters, are accesible to anyone with little knowledged of statistic or R. A good place to start.

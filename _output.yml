@@ -1,9 +1,9 @@
 bookdown::gitbook:
-  css: style.css
+  css: slategbootstrap.min.css
   config:
     toc:
       before: |
-        <li><a href="./">Jorge Eduardo Amaya Romero</a></li>
+        <li><a href="./">Web Stats</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s

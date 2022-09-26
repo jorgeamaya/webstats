@@ -3,7 +3,7 @@ statistics-and-experimental-design
 general-material
 experimental-design
 advanced-material
-machine-learning
+data-science-ml-and-big-data-tools
 bioinformatics-workflows
 practical-resources
 basic-mathematics

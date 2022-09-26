@@ -1,6 +1,11 @@
-# Machine Learning
+# Data Science (ML and Big Data tools)
 
 This page collects ML methods. Focus is given to material that have an applied focus rather than a theoretical one. For more theoretical materials, go to the [Basic Mathematics] section.
 
 * [Cluster Analysis in R: Practical Guide](https://www.datanovia.com/en/blog/cluster-analysis-in-r-practical-guide/). A compilation of clustering methods in R including some of the conceptual background that underpin them.
 * [An Alternative to the Correlation Coefficient That Works For Numeric and Categorical Variables](https://rama100.github.io/lecture-notes/x2y.nb.html).
+* [s-Corrplot](https://mckennapsean.com/projects/s-corrplot/)
+The s-CorrPlot is a scatterplot for visually exploring pairwise correlation coefficients between multiple variables in large datasets.
+```{r, echo=FALSE}
+knitr::include_graphics("images/s-corrplot.png")
+```
