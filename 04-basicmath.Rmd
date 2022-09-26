@@ -1,4 +1,4 @@
 # Basic Mathematics
 
 * [Paul's Online Notes](https://tutorial.math.lamar.edu/). Online notes prepared by Paul Dawkins from Lamar University. The material cover Linear Algebra, Trigonometry, Calculus, and Differential Equations.
-* [Linear Algebra Cheat Sheet](./docs/_main_files/main_linear-algebra-cheat-sheet.pdf).
+* [Linear Algebra Cheat Sheet](_bookdown_files/_main_files/How_to_structure_a_bioinformatics_project.pdf).
