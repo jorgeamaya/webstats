@@ -10,7 +10,7 @@ correlation-methods
 bioinformatics-workflows
 workflows
 practical-resources
-basic-mathematics
+basic-math
 other-useful-resources
 scientific-production-and-outreach
 scientific-papers
