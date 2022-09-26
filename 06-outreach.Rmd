@@ -6,3 +6,6 @@
 
 ## Pipelines
 * [Pipeline for the distributed assembly of small genomic sequences](https://github.com/jorgeamaya/automatic_genome_assembly/wiki).
+```{r, echo=FALSE}
+knitr::include_graphics("images/Pipeline_Automatic_Genome_Assembly_Pipeline.png")
+```
