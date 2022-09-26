@@ -6,4 +6,4 @@ This page compiles some common bioinformatic workflows any person working with N
 * [RNA-Seq Analyses](https://nbisweden.github.io/workshop-ngsintro/2105/lab_rnaseq.html).
 
 ## Practical resources
-* [How to structure a Bioinformatic Project](https://github.com/jorgeamaya/webstats/blob/main/docs/_main_files/How_to_structure_a_bioinformatics_project.pdf). My class on How to structure a Bioinformatic Project for the "Programming for Biology" course at the University of Groningen.
+* [How to structure a Bioinformatic Project](pdfs/How_to_structure_a_bioinformatics_project.pdf). My class on How to structure a Bioinformatic Project for the "Programming for Biology" course at the University of Groningen.
