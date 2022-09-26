@@ -15,7 +15,7 @@ Most of this resources assume previous exposure in some way or another to statis
 ## Advanced material 
 * [Common statistical tests are linear models (or: how to teach stats)](https://lindeloev.github.io/tests-as-linear/#1_the_simplicity_underlying_common_tests) and [Common statistical tests are linear models: a work through](https://steverxd.github.io/Stat_tests/). Excellent resources that proves the power of Regression Methods and how most experimental designs *are* Regression.
 ```{r, echo=FALSE}
-knitr::include_graphics("docs/_main_files/figure-html/linear_tests_cheat_sheet.png")
+knitr::include_graphics("images/linear_tests_cheat_sheet.png")
 ```
 
 
