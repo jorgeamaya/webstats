@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  css: luxbootstrap.min.css
+  css: flatly.css
   config:
     toc:
       before: |
