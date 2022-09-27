@@ -2,6 +2,7 @@ about
 statistics-and-experimental-design
 general-material
 experimental-design
+epidemiology
 advanced-material
 data-science-ml-and-big-data-tools
 data-exploration

@@ -1,6 +1,6 @@
 # Data Science (ML and Big Data tools)
 
-This page collects ML methods. Focus is given to material that have an applied focus rather than a theoretical one. For more theoretical materials, go to the [Basic Mathematics] section.
+This page collects ML methods. Focus is given to material that have an applied focus rather than a theoretical one. For more theoretical materials, go to the [Basic Math] section.
 
 ## Data Exploration
 * [Pandas Profiling](https://www.youtube.com/watch?v=Ef169VELt5o). A Python Library that automatizes the production of summary statistics from pandas data frames, similar to the summary() function in R, but with more output. Good for data exploration before running further analysis. Source code available [here](https://github.com/ydataai/pandas-profiling). Further examples [here](https://www.linkedin.com/pulse/summarizing-exploring-datasets-using-jupyter-notebooks-joseph-true/).

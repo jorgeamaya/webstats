@@ -77,7 +77,8 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="statistics-and-experimental-design.html"><a href="statistics-and-experimental-design.html#general-material"><i class="fa fa-check"></i><b>2.1</b> General material</a></li>
 <li class="chapter" data-level="2.2" data-path="statistics-and-experimental-design.html"><a href="statistics-and-experimental-design.html#experimental-design"><i class="fa fa-check"></i><b>2.2</b> Experimental Design</a></li>
-<li class="chapter" data-level="2.3" data-path="statistics-and-experimental-design.html"><a href="statistics-and-experimental-design.html#advanced-material"><i class="fa fa-check"></i><b>2.3</b> Advanced material</a></li>
+<li class="chapter" data-level="2.3" data-path="statistics-and-experimental-design.html"><a href="statistics-and-experimental-design.html#epidemiology"><i class="fa fa-check"></i><b>2.3</b> Epidemiology</a></li>
+<li class="chapter" data-level="2.4" data-path="statistics-and-experimental-design.html"><a href="statistics-and-experimental-design.html#advanced-material"><i class="fa fa-check"></i><b>2.4</b> Advanced material</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-science-ml-and-big-data-tools.html"><a href="data-science-ml-and-big-data-tools.html"><i class="fa fa-check"></i><b>3</b> Data Science (ML and Big Data tools)</a>
 <ul>
@@ -121,11 +122,12 @@
 <div id="statistics-and-experimental-design" class="section level1 hasAnchor" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Statistics and Experimental Design<a href="statistics-and-experimental-design.html#statistics-and-experimental-design" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>This section collects useful resources in Experimental Design that are enough to get most people’s project up and running on the statistical front. These materials cover, first, Analysis of Variance and its many parametric and non-parametric variations and, second, Regression Methods.</p>
-<p>Most of this resources assume previous exposure to statistics, Linux, R, and Python. They may not be the most appropriate material for beginners. In any case, if you’re a beginner and you still want to use these resources, my advice is to start with <a href="https://advstats.psychstat.org">Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang</a>.</p>
+<p>Most of this resources assume previous exposure to statistics, Linux, R, and Python. They may not be the most appropriate material for beginners. In any case, if you’re a beginner and you still want to use these resources, my advice is to start with <a href="https://advstats.psychstat.org">Advanced Statistics</a> or <a href="https://epirhandbook.com/">The Epidemiologist R Handbook</a>. For a primer on the mathematical intuition and concepts behind statistical methods, that nonetheless is accessible to everybody, I recommend the <a href="https://www.itl.nist.gov/div898/handbook/">NIST/SEMATECH e-Handbook of Statistical Methods</a>.</p>
 <div id="general-material" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> General material<a href="statistics-and-experimental-design.html#general-material" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><a href="https://advstats.psychstat.org">Advanced Statistics written by Zhiyong Johnny Zhang and Lijuan Peggy Wang</a>. The statistics book of the Advance Statistics course at the University of Notre Dame. Contrary to what the name seems to indicate, this book, specially the first chapters, are accessible to anyone with little knowledge of statistic or R. A good place to start.</li>
+<li><p><a href="https://advstats.psychstat.org">Advanced Statistics</a>. The statistics book of the Advance Statistics course at the University of Notre Dame by Zhiyong Johnny Zhang and Lijuan Peggy Wang. Contrary to what the name seems to indicate, this book, specially the first chapters, are accessible to anyone with little knowledge of statistic or R. A good place to start.</p></li>
+<li><p><a href="https://www.itl.nist.gov/div898/handbook/">NIST/SEMATECH e-Handbook of Statistical Methods</a>. A free online handbook compiled by the National Institute of Standards and Technology (<a href="https://www.nist.gov/">NIST</a>) of the US Department of Commerce. It contains an accessible primer on the mathematical intuition behind most statistical tests as well as definition of the most common terminology used in statistics. There are also links to R code to perform the statistical tests described in the book.</p></li>
 </ul>
 </div>
 <div id="experimental-design" class="section level2 hasAnchor" number="2.2">
@@ -136,14 +138,21 @@
 <li><p><a href="https://online.stat.psu.edu/stat504/">STAT 504: Analysis of Discrete Data</a>. This course also from Penn State’s master in Applied Statistics covers methods for the analysis of discrete and categorical data. These are more specialized analyses and biologist are less likely to find them in their day to day, but it’s still a good resource to keep in store. <a href="https://online.stat.psu.edu/stat501/">STAT 501: Regression Methods</a> is a pre-requisite to go through this material.</p></li>
 </ul>
 </div>
-<div id="advanced-material" class="section level2 hasAnchor" number="2.3">
-<h2><span class="header-section-number">2.3</span> Advanced material<a href="statistics-and-experimental-design.html#advanced-material" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="epidemiology" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Epidemiology<a href="statistics-and-experimental-design.html#epidemiology" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><a href="https://epirhandbook.com/">The Epidemiologist R Handbook</a>. A reference handbook with an introduction to R, basic statistics, and most of the tools necessary to perform epidemiological data analysis (specifically, from chapter 17 to chapter 28), including Times Series, Outbreak Detection, Epidemic Modelling, Contact Tracing, Survey Analysis, Survival Analysis, and Likert Scales (chapter 33.4). The book is light on the math side. To get a better grasp of the math behind these methods, check <a href="statistics-and-experimental-design.html#experimental-design">Experimental Design</a> section.</p></li>
+<li><p><a href="https://becarioprecario.github.io/posts/rstats/2020/04/01/EPH-with-R/">Epidemiology and Public Health with R</a>. A curated list of resources for the R programming language on Epidemiology compiled by Virgilio Gómez Rubio from University of Castilla-LaMancha. Although the focus of the list rest on epidemiology, many of these resources can be used in Public Health, Biomedical Research, Pharmaceutical Research, Clinical Trials, Genetics Analysis, Medical Imaging Analysis, Meta-Analysis, Pharmacokinetics Analysis and Survival Analysis.</p></li>
+</ul>
+</div>
+<div id="advanced-material" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Advanced material<a href="statistics-and-experimental-design.html#advanced-material" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li><a href="https://lindeloev.github.io/tests-as-linear/#1_the_simplicity_underlying_common_tests">Common statistical tests are linear models (or: how to teach stats)</a> and <a href="https://steverxd.github.io/Stat_tests/">Common statistical tests are linear models: a work through</a>. Excellent resources that prove the power of Regression Methods and how most experimental designs <em>are</em>, at the end of day, Regressions.</li>
 </ul>
 <p><img src="images/linear_tests_cheat_sheet.png" width="888" /></p>
 <ul>
-<li><a href="https://bookdown.org/chua/ber642_advanced_regression/">Advanced Regression Methods</a>. The syllabus of the Advanced Regression Methods course at the University of Alabama. This material cover more advanced regression methods not covered in the Penn State courses including Curvilinear Regressions methods, Multi-level models, Growth Models, Binary Logistic Regression, Multinomial Logistic Regression, Ordinal Logistics Regression, and Probit Analysis.</li>
+<li><a href="https://bookdown.org/chua/ber642_advanced_regression/">Advanced Regression Methods</a>. The syllabus of the Advanced Regression Methods course at the University of Alabama by Cheng Hua, Dr. Youn-Jeng Choi, Qingzhou Shi. This material cover more advanced regression methods not covered in the Penn State courses including Curvilinear Regressions methods, Multi-level models, Growth Models, Binary Logistic Regression, Multinomial Logistic Regression, Ordinal Logistics Regression, and Probit Analysis.</li>
 </ul>
 
 </div>
