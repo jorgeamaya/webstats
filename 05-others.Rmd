@@ -1,3 +1,0 @@
-# Other Useful Resources
-
-* [Bookdown and GitHub Pages](https://www.youtube.com/watch?v=RdSmYvbQkhs). How to create a website like the one you're seeing right now (it's easier than you think!).

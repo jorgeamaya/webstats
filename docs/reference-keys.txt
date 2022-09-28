@@ -4,15 +4,16 @@ general-material
 experimental-design
 epidemiology
 advanced-material
+miscellaneous
 data-science-ml-and-big-data-tools
 data-exploration
 correlation-methods
 clustering-methods
 bioinformatics-workflows
 workflows
+population-genetics-and-biological-stats
 practical-resources
 basic-math
-other-useful-resources
 scientific-production-and-outreach
 scientific-papers
 pipelines

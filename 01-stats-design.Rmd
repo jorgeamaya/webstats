@@ -29,3 +29,10 @@ knitr::include_graphics("images/linear_tests_cheat_sheet.png")
 ```
 
 * [Advanced Regression Methods](https://bookdown.org/chua/ber642_advanced_regression/). The syllabus of the Advanced Regression Methods course at the University of Alabama by Cheng Hua, Dr. Youn-Jeng Choi, Qingzhou Shi. This material cover more advanced regression methods not covered in the Penn State courses including Curvilinear Regressions methods, Multi-level models, Growth Models, Binary Logistic Regression, Multinomial Logistic Regression, Ordinal Logistics Regression, and Probit Analysis. 
+
+## Miscellaneous
+
+* [Power Analysis in R](https://ladal.edu.au/pwr.html).
+* [Effect sizes for ANOVAs](https://cran.r-project.org/web/packages/effectsize/vignettes/anovaES.html).
+* [Basics of estimated marginal means](https://cran.r-project.org/web/packages/emmeans/vignettes/basics.html).
+* [Understanding Q-Q Plots](https://data.library.virginia.edu/understanding-q-q-plots/).

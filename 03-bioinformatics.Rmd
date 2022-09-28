@@ -10,9 +10,15 @@ This page compiles some common bioinformatic workflows any person working with N
 
 * [Data Wrangling and Processing for Genomics](https://datacarpentry.org/wrangling-genomics/). How to use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. Part of a [more comprehensive workshop on genomics](https://datacarpentry.org/genomics-workshop/) that assumes no previous knowledge of the command line.
 
+## Population Genetics and Biological Stats
+
+* [Population genetics and genomics in R](https://grunwaldlab.github.io/Population_Genetics_in_R/index.html). Includes a primer on how to use R for population genetics and many common analyses in population genetics and genomics.
+
 ## Practical resources
 * [How to structure a Bioinformatic Project](pdfs/How_to_structure_a_bioinformatics_project.pdf). My class on How to structure a Bioinformatic Project for the "Programming for Biology" course at the University of Groningen.
 
 ```{r, echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/phd031214s.gif")
 ```
+
+* [Bookdown and GitHub Pages](https://www.youtube.com/watch?v=RdSmYvbQkhs). How to create a website like the one you're seeing right now (it's easier than you think!).
