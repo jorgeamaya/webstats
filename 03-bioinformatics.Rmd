@@ -21,6 +21,6 @@ This page compiles some common bioinformatic workflows any person working with N
 knitr::include_graphics("images/phd031214s.gif")
 ```
 
-* [Python Good Practices]("websites/Python_Good_practices.html"). My personal compilation of useful ways to write common Python operations in a shorter, more efficient, and easier manner.
+* [Python Good Practices](websites/Python_Good_practices.html). My personal compilation of useful ways to write common Python operations in a shorter, more efficient, and easier manner.
 
 * [Bookdown and GitHub Pages](https://www.youtube.com/watch?v=RdSmYvbQkhs). How to create a website like the one you're seeing right now (it's easier than you think!).
