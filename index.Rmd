@@ -8,13 +8,13 @@ bibliography: [book.bib, packages.bib]
 url: https://jorgeamaya.github.io/webstats
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This site compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics
+  Webstats compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
 # About
-Web Stats is a site that compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics. For the moment, it works as a repository of materials I use in my own work and often recommend or discuss with others. As time permits, I will upload further material prepared by myself as well as new furthers resources that may come my way. 
+Web Stats compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics. For the moment, it works as a repository of materials I use in my work and often recommend or discuss with others. As time permits, I will upload further material prepared by myself as well as new resources that may come my way. 
 
 In addition, there are links to scientific papers and outreach materials that I find relevant.
 

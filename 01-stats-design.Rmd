@@ -1,38 +1,36 @@
 # Statistics and Experimental Design
 
-This section collects useful resources in Experimental Design that are enough to get most people's project up and running on the statistical front. These materials cover, first, Analysis of Variance and its many parametric and non-parametric variations and, second, Regression Methods.
-
-Most of this resources assume previous exposure to statistics, Linux, R, and Python. They may not be the most appropriate material for beginners. In any case, if you're a beginner and you still want to use these resources, my advice is to start with [Advanced Statistics](https://advstats.psychstat.org) or [The Epidemiologist R Handbook](https://epirhandbook.com/). For a primer on the mathematical intuition and concepts behind statistical methods, that nonetheless is accessible to everybody, I recommend the [NIST/SEMATECH e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/).
+This section collects resources in General Statistics and Experimental Design - enough to get most people's projects up and running on the statistical front. Most of these resources assume previous exposure to Statistics, Linux, R, and Python, and may not be the most appropriate material for beginners. If you're a beginner, my advice is to start with [Advanced Statistics](https://advstats.psychstat.org) or [The Epidemiologist R Handbook](https://epirhandbook.com/). For a primer on the mathematical intuition and concepts behind statistical methods, that nonetheless is accessible to everybody, I recommend the [NIST/SEMATECH e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/).
 
 ## General material
-* [Advanced Statistics](https://advstats.psychstat.org). The statistics book of the Advance Statistics course at the University of Notre Dame by Zhiyong Johnny Zhang and Lijuan Peggy Wang. Contrary to what the name seems to indicate, this book, specially the first chapters, are accessible to anyone with little knowledge of statistic or R. A good place to start.
+* [Advanced Statistics](https://advstats.psychstat.org). The statistics book of the Advance Statistics course at the University of Notre Dame by Zhiyong Johnny Zhang and Lijuan Peggy Wang. Contrary to what the name seems to indicate, the first chapters of this book are accessible to anyone with little knowledge of statistic or R. A good place to start.
 
-* [NIST/SEMATECH e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/). A free online handbook compiled by the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)) of the US Department of Commerce. It contains an accessible primer on the mathematical intuition behind most statistical tests as well as definition of the most common terminology used in statistics. There are also links to R code to perform the statistical tests described in the book.
+* [NIST/SEMATECH e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/). A free online handbook compiled by the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)) of the US Department of Commerce. It contains an accessible primer on the mathematical intuition behind most statistical tests and definitions of common statistical terminology. There are links to R code to perform the statistical tests described in the book.
 
-* [Tutorials and Workshops on R and statistics](https://www.flutterbys.com.au/stats/course.html). One of my favorite sites because it covers the Frequentist and __Bayesian version__ of most statistical test.
+* [Tutorials and Workshops on R and statistics](https://www.flutterbys.com.au/stats/course.html). One of my favorite sites. It covers the Frequentist and __Bayesian__ of many common statistical test.
 
-* [StatLect](https://www.statlect.com/). A sort of Dictionary of Statistical terms. Good to sort out clarify basic quetions and familiarize yourself with common Statistical concepts.
+* [StatLect](https://www.statlect.com/). A sort of Dictionary of Statistical terms. Good to clarify basic questions and familiarize yourself with common Statistical concepts.
 
 * [Introduction to Probability, Statistics, and Random Processes](https://www.probabilitycourse.com/) by Hossein Pishro-Nik.
 
 ## Experimental Design
-* [Comparing Means in R](https://www.datanovia.com/en/classes/comparing-means-in-r/). An online course covering most of what needs to be know about Analysis of Variance for Parametric and Non-parametric scenarios. In other words, ANOVA and all its different flavors... To navigate the website, go to the Lessons sections and pick the topic of interest.
+* [Comparing Means in R](https://www.datanovia.com/en/classes/comparing-means-in-r/). An online course covering most of what needs to be known about Analyses of Variance for Parametric and Non-parametric scenarios. In other words, ANOVA and all its different flavors... To navigate the website, go to the Lessons sections and pick the topic of interest.
 
-* [STAT 501: Regression Methods](https://online.stat.psu.edu/stat501/). The Regression Methods course of Penn State, part of their Master in Applied Statistics. It covers most relevant topics on Regression, from Simple Linear Regression to Multiple Linear Regression. It also contains a primer on Times Series and other types of Regression like Logistic, Poisson, and Non Linear Regression.
+* [STAT 501: Regression Methods](https://online.stat.psu.edu/stat501/). Penn Stat's Regression Methods course, part of their Master in Applied Statistics. It covers the most relevant topics on Regression, from Simple Linear Regression to Multiple Linear Regression. It also contains a primer on Times Series and other types of Regression like Logistic, Poisson, and Non-Linear Regression.
 
-* [STAT 504: Analysis of Discrete Data](https://online.stat.psu.edu/stat504/). This course also from Penn State's master in Applied Statistics covers methods for the analysis of discrete and categorical data. These are more specialized analyses and biologist are less likely to find them in their day to day, but it's still a good resource to keep in store. [STAT 501: Regression Methods](https://online.stat.psu.edu/stat501/) is a pre-requisite to go through this material.
+* [STAT 504: Analysis of Discrete Data](https://online.stat.psu.edu/stat504/). Also from Penn State's master in Applied Statistics, this course covers methods for the analysis of discrete and categorical data. These are more specialized analyses and biologists are unlikely to find them in their day to day, but it's still a good resource to keep in store. [STAT 501: Regression Methods](https://online.stat.psu.edu/stat501/) is a prerequisite to go through this material.
 
 * [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/)
 
 ## Epidemiology
-* [The Epidemiologist R Handbook](https://epirhandbook.com/). A reference handbook with an introduction to R, basic statistics, and most of the tools necessary to perform epidemiological data analysis (specifically, from chapter 17 to chapter 28), including Times Series, Outbreak Detection, Epidemic Modelling, Contact Tracing, Survey Analysis, Survival Analysis, and Likert Scales (chapter 33.4). The book is light on the math side. To get a better grasp of the math behind these methods, check [Experimental Design] section.
+* [The Epidemiologist R Handbook](https://epirhandbook.com/). A reference handbook with an introduction to R, basic statistics, and useful tools to perform epidemiological data analysis (specifically, from chapter 17 to chapter 28), including Times Series, Outbreak Detection, Epidemic Modelling, Contact Tracing, Survey Analysis, Survival Analysis, and Likert Scales (chapter 33.4). Light on the math side. To get a better grasp of the math behind these methods, check [Experimental Design] section.
 
-* [Epidemiology and Public Health with R](https://becarioprecario.github.io/posts/rstats/2020/04/01/EPH-with-R/). A curated list of resources for the R programming language on Epidemiology compiled by Virgilio Gómez Rubio from University of Castilla-LaMancha. Although the focus of the list rest on epidemiology, many of these resources can be used in Public Health, Biomedical Research, Pharmaceutical Research, Clinical Trials, Genetics Analysis, Medical Imaging Analysis, Meta-Analysis, Pharmacokinetics Analysis and Survival Analysis.
+* [Epidemiology and Public Health with R](https://becarioprecario.github.io/posts/rstats/2020/04/01/EPH-with-R/). A curated list of resources for the R programming language on Epidemiology. Compiled by Virgilio Gómez Rubio from University of Castilla-LaMancha. Although the focus of the list rests on epidemiology, many of these resources can be used in Public Health, Biomedical Research, Pharmaceutical Research, Clinical Trials, Genetics Analysis, Medical Imaging Analysis, Meta-Analysis, Pharmacokinetics Analysis and Survival Analysis.
 
 * [Survival Analysis in R](https://www.emilyzabor.com/tutorials/survival_analysis_in_r_tutorial.html).
 
 ## Advanced material 
-* [Common statistical tests are linear models (or: how to teach stats)](https://lindeloev.github.io/tests-as-linear/#1_the_simplicity_underlying_common_tests) and [Common statistical tests are linear models: a work through](https://steverxd.github.io/Stat_tests/). Excellent resources that prove the power of Regression Methods and how most experimental designs *are*, at the end of day, Regressions.
+* [Common statistical tests are linear models (or: how to teach stats)](https://lindeloev.github.io/tests-as-linear/#1_the_simplicity_underlying_common_tests) and [Common statistical tests are linear models: a work through](https://steverxd.github.io/Stat_tests/). Excellent resources that prove the power of Regression Methods and how most experimental designs *are*, at the end of the day, Regressions.
 
 ```{r, echo=FALSE}
 knitr::include_graphics("images/linear_tests_cheat_sheet.png")
@@ -40,7 +38,7 @@ knitr::include_graphics("images/linear_tests_cheat_sheet.png")
 
 * [Advanced Regression Methods](https://bookdown.org/chua/ber642_advanced_regression/). The syllabus of the Advanced Regression Methods course at the University of Alabama by Cheng Hua, Dr. Youn-Jeng Choi, Qingzhou Shi. This material cover more advanced regression methods not covered in the Penn State courses including Curvilinear Regressions methods, Multi-level models, Growth Models, Binary Logistic Regression, Multinomial Logistic Regression, Ordinal Logistics Regression, and Probit Analysis.
 
-* [Statistics, Data, Science](https://m-clark.github.io/). A site ran Michael Clark that covers applied version of simple and advanced Statistical and Machine Learning methods using R. New material is added sporadically.
+* [Statistics, Data, Science](https://m-clark.github.io/). A site ran Michael Clark that covers Advanced Statistical and Machine Learning methods using R. New material is added sporadically.
 
 ## Miscellaneous
 
