@@ -19,3 +19,5 @@ scientific-papers
 pipelines
 youtube-videos-and-postcast
 cover-image-path-to-the-social-sharing-image-like-imagescover.jpg
+my-handy-python-bash-r-guides.
+handy-python-bash-and-r-snipets.

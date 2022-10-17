@@ -21,8 +21,12 @@ This page compiles some common bioinformatic workflows any person working with N
 knitr::include_graphics("images/phd031214s.gif")
 ```
 
-* [Python Good Practices](websites/Python_Good_practices.html). My personal compilation of useful ways to write common Python operations in a shorter, more efficient, and easier manner.
-
-* [Handy Everyday Bash](websites/everyday_bash_basic.html). A collection of methods to handle common bash "situations". 
-
 * [Bookdown and GitHub Pages](https://www.youtube.com/watch?v=RdSmYvbQkhs). How to create a website like the one you're seeing right now (it's easier than you think!).
+
+## Handy Python, Bash, and R snipets.
+
+This section collects methods I often use to handle basic programming task. My advice is to practice them until they become second nature. It will save you a lot of time (at least it does to me).
+
+* [Python Good Practices](websites/Python_Good_practices.html). My personal compilation of useful ways to write common Python operations in a shorter, more efficient, and easier manner.
+* [Handy Everyday Bash - Basics](websites/everyday_bash_basic.html). A collection of methods to handle common bash "situations".
+* [Handy Everyday R - Basics](websites/everyday_r_basic.html). A collection of methods to handle common bash "situations".
