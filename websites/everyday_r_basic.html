@@ -368,21 +368,76 @@ pre code {
 <div id="handy-everyday-r---basics" class="section level1">
 <h1>Handy Everyday R - Basics</h1>
 <p>This pages contains examples of correct and efficient ways to
-implement common R operations you (or at least I) need to program
-often.</p>
-<div id="data-cleaning" class="section level2">
-<h2>Data cleaning</h2>
-<pre class="r"><code>#Remove duplicated rows. 
-data_nodupli = data[!duplicated(data),] #The same approach works for columns, just place !duplicated(data) after the comma (although data frames with duplicated columns are a much less common occurrence).</code></pre>
+implement common R operations you (or at least I) need to program often.
+Most of this commands can be copy-pasted and run on the R prompt. My
+recommendation is to first print the dataset, then the command to get
+and idea of how it alters the original dataset. The statement “With
+[package]” after some commands, means a package was used. Load the
+package before running the command with library(package).</p>
+<p>Shift + Ctrl + M will create the pipe operator %&gt;%.</p>
+<div id="data-wrangling" class="section level2">
+<h2>Data wrangling</h2>
+<pre class="r"><code>iris[!duplicated(iris),] #Remove duplicated rows.
+iris[unique(iris), ] #Basically the same, but done by keeping unique rows. Notice that duplicated and unique can also be used on vectors.
+iris %&gt;% distinct() #With dplyr.
+
+df = df[match(targetvector, df$sourcevector),] #Reorder df rows to match target vector.
+
+names(vector) = c(&#39;name1&#39;, &#39;name2&#39;, &#39;name3&#39;) #Create a named vector
+vector[&#39;name1&#39;] #Access element in named vector by key (Similar to a dictionary).
+iris$Species = factor(iris$Species, levels = levels(iris$Species), labels = c(&quot;setosa&quot;, &quot;versicolor&quot;, &quot;virginica&quot;)) #Create ordered factor column</code></pre>
+</div>
+<div id="essentials-of-data-wrangling-with-dplyr" class="section level2">
+<h2>Essentials of data wrangling with dplyr</h2>
+<pre class="r"><code>new_iris = iris %&gt;% ... #Store the output of a dplyr pipe like it&#39;s a normal variable 
+
+#filter(), arrange(), mutate(). 
+iris %&gt;% filter(Species == &quot;virginica&quot;) #Filter data by one
+iris %&gt;% filter(Species == &quot;virginica&quot;, Sepal.Legth &lt; 6) #or two criteria.
+
+iris %&gt;% arrange(Sepal.Length) #Order data frame according to an ascending
+iris %&gt;% arrange(desc(Sepal.Length)) #or descending criteria.
+
+iris %&gt;% mutate(Sepal.Length=Sepal.Length*10) #Update
+iris %&gt;% mutate(Sepal.Length.times10=Sepal.Length*10) #or create new columns.
+
+#Others (maybe already mentioned somewhere else)
+#distinct(), group_by(), summarize(), select()
+iris %&gt;% distinct() #All distinct rows.
+airquality %&gt;% drop_na() #Remove rows with na values
+iris %&gt;% select(&#39;Species&#39;) #Select columns by name
+iris %&gt;% select(1:3) #or by range.
+
+iris 
+  %&gt;% group_by(Species) 
+  %&gt;% summarize(mean_sepal_width = mean(Sepal.Width)) #Summarize accoring to a group and a function.</code></pre>
+</div>
+<div id="pivote-and-melt-data-frames-and-matrices" class="section level2">
+<h2>Pivote and melt data frames and matrices</h2>
+<pre class="r"><code>fish_encounters %&gt;% pivot_wider(names_from = station, values_from = seen) #Pivot_wider: make matrix from a three column df. names_from set the column names.
+
+relig_income[,c(&quot;religion&quot;, &quot;&lt;$10k&quot;, &quot;$10-20k&quot;)] %&gt;% 
+    pivot_longer(c(&quot;&lt;$10k&quot;, &quot;$10-20k&quot;), names_to = &quot;income&quot;, values_to = &quot;count&quot;) #Pivot longer. make a three column df from a matrix. names in vector go to names_to
+relig_income[,c(&quot;religion&quot;, &quot;&lt;$10k&quot;, &quot;$10-20k&quot;)] %&gt;% 
+    pivot_longer(!religion, names_to = &quot;income&quot;, values_to = &quot;count&quot;) #Alternatively, simply exclude the column that sets the template for the rest.
+
+melt(iris, id.vars = c(&quot;Sepal.Length&quot;, &quot;Petal.Length&quot;), variable.name = &quot;Column.Name&quot;) #With Reshape2. Collapses all columns not mentioned in id.vars into two new columns: Column.Name and value. </code></pre>
 </div>
 <div id="summarize-data" class="section level2">
 <h2>Summarize data</h2>
-<pre class="r"><code># Group by a variable then summarize according to certain criteria.
-library(dplyr)
-
-iris %&gt;%
+<pre class="r"><code>iris %&gt;%
   group_by(Species) %&gt;%
-  summarize(mean_sepal_width = mean(Sepal.Width, na.rm = TRUE)) #Change mean() by whatever function you want to use to summarize your data.</code></pre>
+  summarize(mean_sepal_width = mean(Sepal.Width, na.rm = TRUE)) #With dplyr. Summarize according to column. 
+
+aggregate(Sepal.Length~Species, FUN = mean, data = iris) #Summarize according to factor.</code></pre>
+</div>
+<div id="some-compact-statements" class="section level2">
+<h2>Some compact statements</h2>
+<pre class="r"><code>if (TRUE) print(&quot;House&quot;) #One line if statement. Good to evaluate code.
+stopifnot(1&lt;2,2&lt;3,3&gt;4) #Stops the program if any condition isn&#39;t met.
+
+ifelse(c(-1,1) &lt; 0, &#39;Statement 1&#39;, &#39;Statement 2&#39;) #Compact ifelse to evaluate lists. Return a list of same length as the input with Statements 1 or 2 as elements.
+sapply(c(1,2,3), function (x) x**2) #Apply statement with compact function.</code></pre>
 </div>
 </div>
 

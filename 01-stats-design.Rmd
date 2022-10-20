@@ -7,7 +7,7 @@ This section collects resources in General Statistics and Experimental Design - 
 
 * [NIST/SEMATECH e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/). A free online handbook compiled by the National Institute of Standards and Technology ([NIST](https://www.nist.gov/)) of the US Department of Commerce. It contains an accessible primer on the mathematical intuition behind most statistical tests and definitions of common statistical terminology. There are links to R code to perform the statistical tests described in the book.
 
-* [Tutorials and Workshops on R and statistics](https://www.flutterbys.com.au/stats/course.html). One of my favorite sites. It covers the Frequentist and __Bayesian__ of many common statistical test.
+* [Tutorials and Workshops on R and statistics](https://www.flutterbys.com.au/stats/course.html). One of my favorite sites. It covers the Frequentist and __Bayesian__ version of many common statistical test.
 
 * [StatLect](https://www.statlect.com/). A sort of Dictionary of Statistical terms. Good to clarify basic questions and familiarize yourself with common Statistical concepts.
 
