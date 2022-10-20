@@ -6,7 +6,6 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 url: https://jorgeamaya.github.io/webstats
-# cover-image: path to the social sharing image like images/cover.jpg
 description: |
   Webstats compiles online resources in the areas of Statistics, Experimental Design, Machine Learning, Big Data, and Bioinformatics
 link-citations: yes
