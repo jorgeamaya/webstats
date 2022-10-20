@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Python Good practices</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Handy Everyday Python - Basics</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14259,32 +14259,32 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Useful-Python">Useful Python<a class="anchor-link" href="#Useful-Python">&#182;</a></h1>
+<h1 id="Handy-Everyday-Python---Basics">Handy Everyday Python - Basics<a class="anchor-link" href="#Handy-Everyday-Python---Basics">&#182;</a></h1>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Decide-what-to-do-with-missing-dictionary-keys-in-a-more-efficient-way-using-get()-and-setdefault()">Decide what to do with missing dictionary keys in a more efficient way using get() and setdefault()<a class="anchor-link" href="#Decide-what-to-do-with-missing-dictionary-keys-in-a-more-efficient-way-using-get()-and-setdefault()">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Many times one finds a situation in whihc a dictionary is missing an specific key and must decide how to proceed. The brute force approach is to use and ifelse statement to handle the missing key.</p>
+<p>Basic yet common operations performed in Python. This section collects methods I often use to handle basic programming in Python. My advice is to practice them until they become second nature. It will save you a lot of time (at least it does to me).</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="For-loops">For loops<a class="anchor-link" href="#For-loops">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cowboy</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s1">&#39;horse&#39;</span><span class="p">:</span> <span class="s1">&#39;mustang&#39;</span><span class="p">,</span> <span class="s1">&#39;hat_size&#39;</span><span class="p">:</span> <span class="s1">&#39;large&#39;</span><span class="p">}</span>
-<span class="k">if</span> <span class="s1">&#39;name&#39;</span> <span class="ow">in</span> <span class="n">cowboy</span><span class="p">:</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="n">cowboy</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;The Man with No Name&#39;</span>
-
-<span class="n">name</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">16</span><span class="p">,</span><span class="mi">3</span><span class="p">):</span> <span class="c1">#A classical use of range to loop through a list of numbers.</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">):</span> <span class="c1">#How to loop throguh a reversed list of numbers.</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">)):</span> <span class="c1">#The same but with the function reverse.</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">1.6</span><span class="p">,</span><span class="mf">0.3</span><span class="p">):</span> <span class="c1">#With numpy. How to loop through floats, something range() cannot do.</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">20</span><span class="p">):</span> <span class="c1">#How to loop thorugh a list of linearly spaced numbers.</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span> <span class="c1">#Loop thorugh a lists while at the same time creating index numbers.</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span> <span class="c1">#Use start to start the index at an arbitrary number.</span>
 </pre></div>
 
      </div>
@@ -14292,87 +14292,48 @@ a.anchor-link {
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;The Man with No Name&#39;</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>However, this ifelse statement can be reduced to a single line with get()</p>
-
+<h2 id="Python-sets">Python sets<a class="anchor-link" href="#Python-sets">&#182;</a></h2>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="n">cowboy</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;The Man with No Name&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The Man with No Name
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Likewise, one may need some times to assign a value to a missing key. This is done with an if statement as well.</p>
+<p>Python sets are more efficient than list when performing comparisons. Unlike lists, sets cannot have duplicated elements. Notice that after Python 3.9. many of these operations can also be performed in dictorionaries. For example, the union operator | can be used to merge two dictionaries.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="s1">&#39;name&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">cowboy</span><span class="p">:</span>
-    <span class="n">cowboy</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;The Man with No Name&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Basic Operations.</span>
+<span class="n">x1</span> <span class="o">|</span> <span class="n">x2</span> <span class="c1">#Union. Combine the sets.</span>
+<span class="n">x1</span> <span class="o">&amp;</span> <span class="n">x2</span> <span class="c1">#Intersection. Find the shared elements.</span>
+<span class="n">x1</span> <span class="o">-</span> <span class="n">x2</span> <span class="c1">#Difference. Subtracts from x1 elements in common with x2</span>
+<span class="n">x1</span> <span class="o">^</span> <span class="n">x2</span> <span class="c1">#Symmetric difference. Obtain the elements that are NOT shared.</span>
 
-<span class="n">name</span> <span class="o">=</span> <span class="n">cowboy</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+<span class="c1">#Comparisons</span>
+<span class="n">x1</span><span class="o">.</span><span class="n">disjoint</span><span class="p">(</span><span class="n">x2</span><span class="p">)</span> <span class="c1">#True is there are no elements in common.</span>
+<span class="n">x1</span> <span class="o">&lt;=</span> <span class="n">x2</span> <span class="c1">#True if x1 is a subset of x2.</span>
+<span class="n">x1</span> <span class="o">&lt;</span> <span class="n">x2</span> <span class="c1">#True if x1 a proper subset of x2, i.e., x2 contains all the elements in x1 AND MORE</span>
+<span class="n">x1</span> <span class="o">&gt;=</span> <span class="n">x2</span> <span class="c1">#True if x1 is a superset of x2.</span>
+<span class="n">x1</span> <span class="o">&gt;</span> <span class="n">x2</span> <span class="c1">#True if x1 is a proper superset of x2.</span>
+
+<span class="c1">#Update oprations</span>
+<span class="n">x1</span> <span class="o">|=</span> <span class="n">x2</span> <span class="c1">#Union update</span>
+<span class="n">x1</span> <span class="o">&amp;=</span> <span class="n">x2</span> <span class="c1">#Intersection update</span>
+<span class="n">x1</span> <span class="o">-=</span> <span class="n">x2</span> <span class="c1">#Difference update</span>
+<span class="n">x1</span> <span class="o">^=</span> <span class="n">x2</span> <span class="c1">#Symmetric difference update</span>
+
+<span class="c1">#Other common operations.</span>
+<span class="n">x1</span><span class="o">.</span><span class="n">add</span><span class="p">()</span>
+<span class="n">x1</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span> <span class="c1">#Element must be in the set. Otherwise the program will throw and error.</span>
+<span class="n">x1</span><span class="o">.</span><span class="n">discard</span><span class="p">()</span> <span class="c1">#Element does not have to be in the set.</span>
+<span class="n">x1</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span> <span class="c1">#Empty the set</span>
+<span class="n">x1</span> <span class="o">=</span> <span class="nb">frozenset</span><span class="p">([</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">])</span> <span class="c1">#Frozen sets are inmutable. Good as a safety check is performed.</span>
 </pre></div>
 
      </div>
@@ -14383,244 +14344,52 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>But it can be done more efficiently with setdefault.</p>
-
+<h2 id="Comprehensions">Comprehensions<a class="anchor-link" href="#Comprehensions">&#182;</a></h2>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="n">cowboy</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;The Man with No Name&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">cowboy</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">square</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">]</span> <span class="c1">#is better than list(map(square, numbers))</span>
+<span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">numbers</span> <span class="k">if</span> <span class="n">is_odd</span><span class="p">(</span><span class="n">x</span><span class="p">)]</span> <span class="c1">#is better than list(filter(is_odd, numbers)), </span>
+                                  <span class="c1">#where def is_odd(x):/ return bool(x % 2).</span>
+
+<span class="p">{</span><span class="n">square</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">}</span> <span class="c1">#Set comprehension. Like list comprehension, but for a set.</span>
+
+<span class="c1">#Generators are useful for when you want to perform operations on a whole list, </span>
+<span class="c1">#but do not need to access any specific element of the list at any point.</span>
+<span class="nb">sum</span><span class="p">((</span><span class="n">i</span> <span class="o">*</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1001</span><span class="p">)))</span> <span class="c1"># Use a generator instead of sum([i * i for i in range(1, 1001)]). </span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The Man with No Name
-The Man with No Name
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Use-counter-instead-of-looping-through-a-list-to-count-repeated-elements.">Use counter instead of looping through a list to count repeated elements.<a class="anchor-link" href="#Use-counter-instead-of-looping-through-a-list-to-count-repeated-elements.">&#182;</a></h2>
+<h2 id="Others">Others<a class="anchor-link" href="#Others">&#182;</a></h2>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
-<span class="n">words</span> <span class="o">=</span> <span class="s2">&quot;if there was there was but if </span><span class="se">\</span>
-<span class="s2">there was not there was not&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
-<span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="nb">any</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)):</span> <span class="c1">#Testing multiple flags in python.</span>
+<span class="n">z</span> <span class="o">=</span> <span class="p">{</span><span class="o">**</span><span class="n">x</span><span class="p">,</span> <span class="o">**</span><span class="n">y</span><span class="p">}</span> <span class="c1">#Merge to dictionaries after Python 3.5.</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">x</span> <span class="o">|</span> <span class="n">y</span> <span class="c1">#Merge to dictionaries after Python 3.5. Look at sets section above.</span>
+<span class="n">numbers</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span> <span class="c1">#Modifies the original lists.</span>
+<span class="nb">sorted</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span> <span class="c1">#Returns a sorted list, but numbers remains unchanged.</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[&#39;if&#39;, &#39;there&#39;, &#39;was&#39;, &#39;there&#39;, &#39;was&#39;, &#39;but&#39;, &#39;if&#39;, &#39;there&#39;, &#39;was&#39;, &#39;not&#39;, &#39;there&#39;, &#39;was&#39;, &#39;not&#39;]
-Counter({&#39;there&#39;: 4, &#39;was&#39;: 4, &#39;if&#39;: 2, &#39;not&#39;: 2, &#39;but&#39;: 1})
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Counter also has some handy functions most_common().</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="o">.</span><span class="n">most_common</span><span class="p">())</span> <span class="c1">#Return a sorted list of tuples with all the elements organized from most</span>
-                            <span class="c1">#to least common. </span>
-<span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="c1">#Obtain the most common element (or two or three...)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">counts</span><span class="o">.</span><span class="n">most_common</span><span class="p">()[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#To get the least common elements, retrive the last </span>
-                                <span class="c1">#element fromt the list</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[(&#39;there&#39;, 4), (&#39;was&#39;, 4), (&#39;if&#39;, 2), (&#39;not&#39;, 2), (&#39;but&#39;, 1)]
-[(&#39;there&#39;, 4)]
-(&#39;but&#39;, 1)
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Generate-permutations-and-combinations-with-itertools">Generate permutations and combinations with itertools<a class="anchor-link" href="#Generate-permutations-and-combinations-with-itertools">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>These are two very common operations. It is no surprise that they have already been automatized in itertools.</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">itertools</span>
-<span class="n">friends</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Monique&#39;</span><span class="p">,</span> <span class="s1">&#39;Ashish&#39;</span><span class="p">,</span> <span class="s1">&#39;Devon&#39;</span><span class="p">,</span> <span class="s1">&#39;Bernie&#39;</span><span class="p">]</span>
-
-<span class="c1">#Generate all possible permutations of size 2</span>
-<span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">permutations</span><span class="p">(</span><span class="n">friends</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Monique&#39;, &#39;Ashish&#39;),
- (&#39;Monique&#39;, &#39;Devon&#39;),
- (&#39;Monique&#39;, &#39;Bernie&#39;),
- (&#39;Ashish&#39;, &#39;Monique&#39;),
- (&#39;Ashish&#39;, &#39;Devon&#39;),
- (&#39;Ashish&#39;, &#39;Bernie&#39;),
- (&#39;Devon&#39;, &#39;Monique&#39;),
- (&#39;Devon&#39;, &#39;Ashish&#39;),
- (&#39;Devon&#39;, &#39;Bernie&#39;),
- (&#39;Bernie&#39;, &#39;Monique&#39;),
- (&#39;Bernie&#39;, &#39;Ashish&#39;),
- (&#39;Bernie&#39;, &#39;Devon&#39;)]</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Generate all possible combination of size 2</span>
-<span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">combinations</span><span class="p">(</span><span class="n">friends</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Monique&#39;, &#39;Ashish&#39;),
- (&#39;Monique&#39;, &#39;Devon&#39;),
- (&#39;Monique&#39;, &#39;Bernie&#39;),
- (&#39;Ashish&#39;, &#39;Devon&#39;),
- (&#39;Ashish&#39;, &#39;Bernie&#39;),
- (&#39;Devon&#39;, &#39;Bernie&#39;)]</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div>
