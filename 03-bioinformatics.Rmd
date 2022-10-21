@@ -27,7 +27,7 @@ knitr::include_graphics("images/phd031214s.gif")
 
 __“Write quickly and you will never write well; write well, and you will soon write quickly.” ― Marcus Fabius Quintilianus.__ 
 
-The same maxim applies to code. Reworking basic techniques until they become second nature is a much more effective manner to learn to write good code - and to do it efficiently - than relying on advance methods without a clear understanding of them. Simple and readable code is better than clever and complicated.
+The same maxim applies to code. Rework these basic techniques until they become second nature. It is a much more effective manner to learn to write good code - and to do it efficiently - than relying on advance methods. Simple and readable beats clever and complicated.
 
 * [Python Good Practices](websites/Python_Good_practices.html). My personal compilation of useful ways to write common Python operations in a shorter, more efficient, and easier manner.
 * [Handy Everyday Bash - Basics](websites/everyday_bash_basic.html). A collection of methods to handle common bash "situations".
