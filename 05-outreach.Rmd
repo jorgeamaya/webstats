@@ -15,5 +15,8 @@ knitr::include_graphics("images/Pipeline_Automatic_Genome_Assembly_Pipeline.png"
 ```
 
 ## Youtube Videos and Postcast
-* [Amazing Seagrass](https://www.youtube.com/channel/UC70Hu0jJygMmccbpZ6x_R8Q/videos). Simona's Youtube channel in which she reports on her Ph.D. thesis on Seagrass (genus *Zostera*). 
-![](https://www.youtube.com/watch?v=OPLvZIIDAw0)
+* [Amazing Seagrass](https://www.youtube.com/channel/UC70Hu0jJygMmccbpZ6x_R8Q/videos). Simona's Youtube channel in which she reports on her Ph.D. thesis on Seagrass (genus *Zostera*).
+
+```{r, echo=FALSE}
+knitr::include_graphics("https://www.youtube.com/watch?v=OPLvZIIDAw0")
+```
