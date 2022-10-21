@@ -25,7 +25,9 @@ knitr::include_graphics("images/phd031214s.gif")
 
 ## Handy Python, Bash, and R snipets.
 
-“Write quickly and you will never write well; write well, and you will soon write quickly.” ― Marcus Fabius Quintilianus. In my opinion, the same maxims applies to writing code. Reworking basic techniques until they become simple nature is a much more efficient way to learn to write code than relying on advance methods without having a clear understanding of them. Also, simple and readable code is better than clever and complicated.
+__“Write quickly and you will never write well; write well, and you will soon write quickly.” ― Marcus Fabius Quintilianus.__ 
+
+The same maxim applies to code. Reworking basic techniques until they become second nature is a much more effective manner to learn to write good code - and to do it efficiently - than relying on advance methods without a clear understanding of them. Simple and readable code is better than clever and complicated.
 
 * [Python Good Practices](websites/Python_Good_practices.html). My personal compilation of useful ways to write common Python operations in a shorter, more efficient, and easier manner.
 * [Handy Everyday Bash - Basics](websites/everyday_bash_basic.html). A collection of methods to handle common bash "situations".
